@@ -67,6 +67,13 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
+    //Compose navigation
+    dependencies {
+        def nav_version = "2.7.7"
+
+        implementation "androidx.navigation:navigation-compose:$nav_version"
+    }
+
     //room components
     def room_version = "2.3.0"
 
